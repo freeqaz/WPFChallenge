@@ -12,6 +12,7 @@ A Navigation bar that contains four buttons:
 - Calendar
 - compass
 - menu
+
 These buttons do not need to go anywhere but should have a consistent tap state
 
 ###Custom Control
