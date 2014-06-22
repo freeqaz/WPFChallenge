@@ -7,7 +7,7 @@
     <ProjectGuid>{4FCDB029-E106-4238-A6B8-FB28D15E1B26}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Articulate</RootNamespace>
+    <RootNamespace>MetroImageViewer</RootNamespace>
     <AssemblyName>MediaServerFrontEnd</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
