@@ -1,0 +1,14 @@
+﻿<metro:Window x:Class="MetroImageViewer.Views.MainWindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:metro="http://schemas.codeplex.com/elysium" 
+        xmlns:controls="clr-namespace:Challenge.WPF.Controls"
+        xmlns:cal="http://www.caliburnproject.org"
+        ResizeMode="NoResize"
+        Title="Challenge.WPF" Height="588" Width="320">
+    <Grid Height="568" Width="320">
+        <!-- Bound via Caliburn Convention! -->
+        <controls:TransitioningContentControl Transition="RightReplace"
+                                              cal:View.Model="{Binding SelectedViewModel}" />
+    </Grid>
+</metro:Window>
