@@ -175,6 +175,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+    <Resource Include="Resources\seguisym.ttf" />
     <None Include="ru\Elysium.chm" />
     <None Include="_MSBuild\NuGetPackageAndPublish.targets" />
   </ItemGroup>

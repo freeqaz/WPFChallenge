@@ -9,7 +9,7 @@
 
     <Style TargetType="Label" x:Key="HeaderIconLabelStyle">
         <Setter Property="RenderTransformOrigin" Value="0.5, 0.5" />
-        <Setter Property="FontFamily" Value="Segoe UI Symbol" />
+        <Setter Property="FontFamily" Value="pack://application:,,,/Resources/#Segoe UI Symbol" />
         <Setter Property="FontSize" Value="30" />
         <Setter Property="Foreground" Value="#2f3440" />
         <Setter Property="IsHitTestVisible" Value="False" />
