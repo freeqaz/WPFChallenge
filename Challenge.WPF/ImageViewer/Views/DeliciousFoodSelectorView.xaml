@@ -103,7 +103,8 @@
                 <!-- Bound via Caliburn convention-->
                 <Button Width="50" Height="50" Style="{DynamicResource ActionCircleButtonStyle}" 
                         Background="#FA2A373F" Foreground="#F2575B" FontSize="18" Padding="0"
-                        Content="&#xE14B;" FontFamily="Segoe UI Symbol" Margin="0, 0, 2, 0"
+                        Content="&#xE14B;" FontFamily="pack://application:,,,/Resources/#Segoe UI Symbol"
+                        Margin="0, 0, 2, 0"
                         x:Name="RandomizeOptions" />
                 
                 <!-- Bound via Caliburn's action syntax -->

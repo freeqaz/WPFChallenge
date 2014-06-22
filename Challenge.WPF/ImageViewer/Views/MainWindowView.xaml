@@ -7,8 +7,8 @@
         ResizeMode="NoResize"
         Title="Challenge.WPF" Height="588" Width="320">
     <Grid Height="568" Width="320">
-        <!-- Bound via Caliburn Convention! -->
-        <controls:TransitioningContentControl Transition="RightReplace"
+        <!-- Bound via Caliburn! -->
+        <controls:TransitioningContentControl Transition="LeftReplace"
                                               cal:View.Model="{Binding SelectedViewModel}" />
     </Grid>
 </metro:Window>
