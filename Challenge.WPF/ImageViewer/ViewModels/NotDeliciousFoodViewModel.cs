@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Articulate.ViewModels
+namespace MetroImageViewer.ViewModels
 {
     public class NotDeliciousFoodViewModel : Screen
     {

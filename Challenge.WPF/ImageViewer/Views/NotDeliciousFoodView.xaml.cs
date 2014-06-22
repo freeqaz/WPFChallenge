@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Articulate.Views
+namespace MetroImageViewer.Views
 {
     /// <summary>
     /// Interaction logic for NotDeliciousFoodView.xaml

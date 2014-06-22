@@ -1,4 +1,4 @@
-﻿using Articulate.ViewModels;
+﻿using MetroImageViewer.ViewModels;
 using Caliburn.Micro;
 using MemBus;
 using System;

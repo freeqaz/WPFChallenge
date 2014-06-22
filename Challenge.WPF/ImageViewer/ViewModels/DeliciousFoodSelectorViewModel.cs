@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Articulate.ViewModels
+namespace MetroImageViewer.ViewModels
 {
     /// <summary>
     /// A helpful ViewModel for helping us find something to eat!
