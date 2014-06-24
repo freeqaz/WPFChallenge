@@ -114,5 +114,20 @@
                         cal:Message.Attach="[Click] = [GoToNextPage()]"/>
             </StackPanel>
         </Grid>
+        
+        <!-- Covers the app with a white screen to emulate a flash. -->
+        <Rectangle Fill="White" Opacity="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsHitTestVisible="False" x:Name="FlashRectangle" />
+        
+        <!-- Storyboard for emulating a flash. :) -->
+        <Grid.Triggers>
+            <EventTrigger RoutedEvent="Button.Click" SourceName="RandomizeOptions">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <DoubleAnimation Storyboard.TargetName="FlashRectangle" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:1" />
+                        <DoubleAnimation Storyboard.TargetName="FlashRectangle" Storyboard.TargetProperty="Opacity" From="1" To="0" Duration="0:0:0.25" />
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Grid.Triggers>
     </Grid>
 </UserControl>
